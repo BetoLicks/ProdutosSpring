@@ -6,11 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
- 
+
 @Entity
 @Table(name="tab_produtos") 
 public class Product {
-
 	
 	private Long id;		
 	@Column(name="nome")
